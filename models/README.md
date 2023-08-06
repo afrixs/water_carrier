@@ -9,18 +9,7 @@ FreeCAD and (to prevent headaches) **not mapping anything on 3D features**, i.e.
 use DatumPlanes and parametric expressions to achieve proper structure, otherwise recomputing hell will come upon you
 with refernces jumping from one feature to another etc.
 
-After editing and exporting the models, there is a `Reload from disk` feature in PrusaSlicer, but first you'll need to
-set proper paths of your `.stl` files. Open `.3mf` files via an archive manager and edit `Metadata/Slic3r_PE_model.config`.
-You will need to edit paths of these records
-```
-   <metadata type="volume" key="source_file" value="/home/matej/Projects/plant_guard/water_carrier/models/water_carrier-Wheel.stl"/>
-```
-and also filenames of these records (if you change the filename)
-```
-   <metadata type="volume" key="name" value="water_carrier-Wheel.stl"/>
-```
-
-After reloading from disk you will want to add supports to all overhangs under 40˚ and to disable supports at specific places where they are not actually needed and are
+After editing and exporting the models, there is a `Reload from disk` feature in PrusaSlicer. After reloading from disk you will want to add supports to all overhangs under 40˚ and to disable supports at specific places where they are not actually needed and are
 hard to tear off after parts have been printed
 ![Supports to be disabled](../doc/disabled-supports.jpg)
  * disabled surfaces are marked by red
