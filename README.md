@@ -2,7 +2,7 @@
 A simple trail car for carrying liquids to be used by other robots.
 
 ## Objective
-This is the first and simplest part of my larger conceptual project of a pipeless system that takes care of household (and possibly garden) plants at times when their owners are not at home.
+This is the first and simplest part of my larger conceptual project of a pipeless system that takes care of household (and possibly garden) plants at times when their owners are not at home. Currently the whole project is quite far from being complete, but you can find a simple working watering device [here](https://github.com/afrixs/plant-guard)
 
 ## Roadmap
 ![Roadmap](doc/roadmap.jpg)
